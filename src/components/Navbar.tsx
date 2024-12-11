@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
       <div className="flex flex-1 flex-row justify-end gap-4 text-2xl h-fit items-center text-light flex-nowrap">
         <div className='flex flex-row items-center gap-2 cursor-pointer  hover:scale-110 transition-all duration-200 active:scale-90 hover:text-custom_black' onClick={() => move('/auth/login')}>
-          <i className='pi-sign-in text-2xl'></i>
+          <i className='pi pi-sign-in text-2xl'></i>
           <div className='max-md:hidden'>
             {traslates.login[language as keyof typeof traslates.login]}
           </div>
